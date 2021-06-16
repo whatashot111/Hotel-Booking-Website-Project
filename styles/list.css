@@ -1,0 +1,179 @@
+.content{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 2%;
+    margin-top:2%;
+}
+.list-view>#hotel-list>.image>img, .list-view>a>#hotel-list>.image>img{
+    height:200px;
+    width:250px;
+}
+.content>.list-view>#hotel-list{
+    margin:2%;
+    background-color:lightgray;
+    width:40%;
+    height: 200px;
+}
+.view-option{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.map-view{
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.list-view{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.list-view>#hotel-list, .list-view>a>#hotel-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.textDiv{
+    text-decoration: none;
+    padding: 3%;
+}
+
+.content>.list-view>#hotel-list:hover{
+    background-color: rosybrown;
+}
+
+.checked, .fa-star-half-full{
+    color: orange;
+}
+
+@media screen and (max-width:576px){
+    .content{
+        overflow: auto;
+    }
+    .view-option{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+    .list-view{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .list-view>#hotel-list, .list-view>a>#hotel-list{
+        height: 350px;
+        display: block;
+    }
+
+    .textDiv{
+        background-color: lightgray;
+        height: 150px;
+        width: 250px;
+    }
+    .map-view{
+        width: 100%;
+        height: 100%;
+    }
+    .map-view>img{
+        height: auto;
+        width: 80%;
+    }
+    #hotel-list{
+        flex:1 0;
+        width: 250px;
+    }
+    .list-view>a{
+        width:250px;
+    }
+    .radisson{
+        height: 350px;
+    }
+    .content>.list-view>#hotel-list:hover{
+        background-color: rosybrown;
+    }
+    .content>.list-view>#hotel-list>.textDiv:hover, .content>.list-view>a>#hotel-list>.textDiv:hover{
+        background-color: rosybrown;
+    }
+    .content>.list-view>#hotel-list{
+        width:250px;
+        background-color: lightgray;
+    }
+    .checked, .fa-star-half-full{
+        color: orange;
+    }
+}
+@media screen and (max-width: 960px) and (min-width: 577px){
+    .content{
+        overflow: auto;
+    }
+    .view-option{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+    .list-view{
+        margin-left: 2%;
+        margin-right: 2%;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+    }
+    .map-view{
+        width: 100%;
+        height: 100%;
+    }
+    .map-view>img{
+        height: 80%;
+        width: 80%;
+    }
+    .lalit, .radisson, .taj{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+    .content>.list-view>#hotel-list{
+        margin:2%;
+        background-color:lightgray;
+        width:90%;
+        height: 200px;
+    }
+    .content>.list-view>a>#hotel-list{
+        width: 100%;
+    }
+    
+    .textDiv{
+        background-color: lightgray;
+        width:100%;
+    }
+    .radisson:hover, .lalit:hover, .taj:hover{
+        background-color: rosybrown;
+    }
+    .content>.list-view>#hotel-list>.textDiv:hover, .content>.list-view>a>#hotel-list>.textDiv:hover{
+        background-color: rosybrown;
+    }
+    .content>.list-view>#hotel-list>.image:hover, .content>.list-view>a>#hotel-list>.image:hover{
+        background-color: rosybrown;
+    }
+    .checked, .fa-star-half-full{
+        color: orange;
+    }
+
+}

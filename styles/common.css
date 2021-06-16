@@ -1,0 +1,76 @@
+body{
+    width: 100%;
+    height:100%;
+    margin:0;
+    background-color: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.wrapper{
+    height:100%;
+    width:100%;
+}
+.content{
+    height: 100%;
+    overflow-y: auto;
+}
+.footer{
+    width: 100%;
+    background-color: rosybrown;
+    position: sticky;
+    bottom: 0px;
+    z-index:+1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+    height:64px;
+}
+.header{
+    width: 100%;
+    background-color: rosybrown;
+    position: sticky;
+    top: 0;
+    z-index:+1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header>#h1>img{
+    height: 60px;
+    width:60px;
+}
+.header>#h1>a>img{
+    height: 60px;
+    width:60px;
+}
+.footer>.social-media>span>a>img{
+    height: 20px;
+    width: 22px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header>#h1{
+    margin-left: 1%;
+}
+.header>#h2{
+    margin-right:2%;
+}
+.footer>.social-media{
+    margin-right: 2%;
+}
+.footer>.contact-us{
+    margin-left:2%;
+}
+.footer>.copyright>span{
+    font-size: 10px;
+}
+.loaderDiv{
+    position: relative;
+    display: none;
+}
+.loaderDiv>iframe{
+    width: 100%;
+    align-self: center;
+}
