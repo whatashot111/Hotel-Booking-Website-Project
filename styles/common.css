@@ -5,17 +5,14 @@ body{
     background-color: #e0e0e0;
     font-family: 'Ubuntu', sans-serif;
 }
-
 .wrapper{
     height:100%;
     width:100%;
 }
-
 .content{
     height: 100%;
     overflow-y: auto;
 }
-
 .footer{
     width: 100%;
     background-color: rosybrown;
@@ -28,7 +25,6 @@ body{
     margin-bottom: 0px;
     height:64px;
 }
-
 .header{
     width: 100%;
     background-color: rosybrown;
@@ -39,17 +35,14 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-
 .header>#h1>img{
     height: 60px;
     width:60px;
 }
-
 .header>#h1>a>img{
     height: 60px;
     width:60px;
 }
-
 .footer>.social-media>span>a>img{
     height: 20px;
     width: 22px;

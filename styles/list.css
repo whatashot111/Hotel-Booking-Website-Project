@@ -6,7 +6,6 @@
     margin-bottom: 2%;
     margin-top:2%;
 }
-
 .list-view>#hotel-list>.image>img, .list-view>a>#hotel-list>.image>img{
     height:200px;
     width:250px;
@@ -32,28 +31,23 @@
     justify-content: center;
     align-items: flex-start;
 }
-
 .list-view{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
-
 .list-view>#hotel-list, .list-view>a>#hotel-list{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
-
 .textDiv{
     text-decoration: none;
     padding: 3%;
 }
-
 .content>.list-view>#hotel-list:hover{
     background-color: rosybrown;
 }
-
 .checked, .fa-star-half-full{
     color: orange;
 }
