@@ -15,7 +15,7 @@ body{
 }
 .footer{
     width: 100%;
-    background-color: rosybrown;
+    background-color: rgb(188, 143, 143);
     position: sticky;
     bottom: 0px;
     z-index:+1;
@@ -47,37 +47,29 @@ body{
     height: 20px;
     width: 22px;
 }
-
-a {
+a{
     text-decoration: none;
     color: black;
 }
-
 .header>#h1{
     margin-left: 1%;
 }
-
 .header>#h2{
     margin-right:2%;
 }
-
 .footer>.social-media{
     margin-right: 2%;
 }
-
 .footer>.contact-us{
     margin-left:2%;
 }
-
 .footer>.copyright>span{
     font-size: 10px;
 }
-
 .loaderDiv{
     position: relative;
     display: none;
 }
-
 .loaderDiv>iframe{
     width: 100%;
     align-self: center;
